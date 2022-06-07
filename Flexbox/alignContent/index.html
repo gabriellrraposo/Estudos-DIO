@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+    
+    <style>
+        .container {
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: solid 1px black;
+        }
+
+        .item {
+            background-color: orange;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            margin: 5px;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flexStart {
+            align-content: flex-start;
+        }
+
+        .flexEnd {
+            align-content: flex-end;
+        }
+
+        .spaceAround {
+            align-content: space-around;
+        }
+
+        .spaceBetween {
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <h2>stretch</h2>
+    <div class="container stretch">
+        <div class="item">1</div>
+        <div class="item">12413531515414ddddd</div>
+        <div class="item">12541313513541</div>
+        <div class="item">155mgvkdanvgkdijngfioadjfgad5</div>
+        <div class="item">fasfasfaaaaaaaaaaaaaaadsgfdsssssssss</div>
+        <div class="item">412222222222222222222222</div>
+        <div class="item">42111111111111241111111aadddd</div>
+    </div>
+    
+    <h2>center</h2>
+    <div class="container center">
+        <div class="item">1</div>
+        <div class="item">1244141fasddddd</div>
+        <div class="item">12541313513541</div>
+        <div class="item">15555voakdijngfioadjfgad5</div>
+        <div class="item">fasfasfdgfgsdgdssssssssssssssssssssssss</div>
+        <div class="item">41222222222222222222222</div>
+        <div class="item">421111111241111111aadddd</div>
+    </div>
+    
+    <h2>flex start</h2>
+    <div class="container flexStart">
+        <div class="item">1</div>
+        <div class="item">1244141fasddddd</div>
+        <div class="item">12541313513541</div>
+        <div class="item">15555voakdijngfioadjfgad5</div>
+        <div class="item">fasfasfdgfgsdgdssssssssssssssssssssssss</div>
+        <div class="item">41222222222222222222222</div>
+        <div class="item">421111111241111111aadddd</div>
+    </div>
+    
+    <h2>flex end</h2>
+    <div class="container flexEnd">
+        <div class="item">1</div>
+        <div class="item">1244141fasddddd</div>
+        <div class="item">12541313513541</div>
+        <div class="item">15555voakdijngfioadjfgad5</div>
+        <div class="item">fasfasfdgfgsdgdssssssssssssssssssssssss</div>
+        <div class="item">41222222222222222222222</div>
+        <div class="item">421111111241111111aadddd</div>
+    </div>
+    
+    <h2>space around</h2>
+    <div class="container spaceAround">
+        <div class="item">1</div>
+        <div class="item">1244141fasddddd</div>
+        <div class="item">12541313513541</div>
+        <div class="item">15555voakdijngfioadjfgad5</div>
+        <div class="item">fasfasfdgfgsdgdssssssssssssssssssssssss</div>
+        <div class="item">41222222222222222222222</div>
+        <div class="item">421111111241111111aadddd</div>
+    </div>
+    
+    <h2>space between</h2>
+    <div class="container spaceBetween">
+        <div class="item">1</div>
+        <div class="item">1244141fasddddd</div>
+        <div class="item">12541313513541</div>
+        <div class="item">15555voakdijngfioadjfgad5</div>
+        <div class="item">fasfasfdgfgsdgdssssssssssssssssssssssss</div>
+        <div class="item">41222222222222222222222</div>
+        <div class="item">421111111241111111aadddd</div>
+    </div>
+</body>
+</html>
