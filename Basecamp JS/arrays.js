@@ -22,3 +22,10 @@ console.log(listaAlunos.indexOf('Davi'))
 
 let novoArray = listaAlunos.slice(0, 4) //Retorna os itens, no intervalo determinado, do array selecionado
 console.log(novoArray)
+
+
+// let array2 = ['Banana']
+// let array = [[array2], 'Gabriel']
+// array2.unshift('Gabriel Lucas')
+
+// console.log(array)
