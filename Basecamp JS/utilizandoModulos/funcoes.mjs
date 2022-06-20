@@ -10,4 +10,8 @@ function mostraHobby(nome, hobby) {
     return `O hobby de ${nome} é ${hobby}`
 }
 
-export {    mostraIdade, mostraCidade, mostraHobby  }
+export default mostraHobby
+
+export {    mostraIdade, mostraCidade  }
+
+let variavel = 2
