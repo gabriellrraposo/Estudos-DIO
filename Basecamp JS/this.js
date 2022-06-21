@@ -57,3 +57,17 @@ function soma(a, b) {
 }
 
 soma.apply(numeros, [1, 5])
+
+//Utilizando Bind
+
+const retornaNomes = function () {
+    return this.nome
+}
+
+retornaNomes.apply(amigo)
+
+let bruno = retornaNomes.bind({nome: 'Bruno'})
+
+console.log(retornaNomes())
+console.log(bruno())
+
