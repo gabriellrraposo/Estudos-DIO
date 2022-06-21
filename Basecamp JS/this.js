@@ -56,4 +56,4 @@ function soma(a, b) {
     console.log(this.num1 + this.num2 + a + b)
 }
 
-soma.call(numeros, 1, 5)
+soma.apply(numeros, [1, 5])
